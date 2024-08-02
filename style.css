@@ -25,7 +25,7 @@ input[type="text"]:focus {
 }
 
 .delete {
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 .filtered {
