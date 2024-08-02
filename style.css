@@ -1,0 +1,33 @@
+body {
+  background: #252f5b;
+}
+
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  max-width: 400px;
+}
+
+/* .list-group-items span {
+  border-width: 10px;
+  margin: 4px;
+  border: 2px solid rgb(210, 189, 189, 0.2);
+  color: #fff;
+} */
+
+.todo li {
+  background: #e10d0d;
+}
+
+.delete {
+  cursor: crosshair;
+}
+
+.filtered {
+  display: none !important;
+}
